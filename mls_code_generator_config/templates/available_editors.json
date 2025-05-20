@@ -1,0 +1,16 @@
+{
+  "editors": [
+    {
+      "name": "Generic pipeline (all stages)",
+      "path": "generic_pipeline.json"
+    },
+    {
+      "name": "Pipeline without data cleaning",
+      "path": "no_datacleaning_pipeline.json"
+    },
+    {
+      "name": "Complex pipeline",
+      "path": "complex_pipeline.json"
+    }
+  ]
+}
