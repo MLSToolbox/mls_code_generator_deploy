@@ -1,1 +1,0 @@
-docker run -d --network mls-network --rm --name mls_code_generator mls_code_generator
