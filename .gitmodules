@@ -1,0 +1,9 @@
+[submodule "mls_code_generator"]
+	path = mls_code_generator
+	url = git@github.com:MLSToolbox/mls_code_generator.git
+[submodule "mls_toolbox_server"]
+	path = mls_toolbox_server
+	url = git@github.com:MLSToolbox/mls_toolbox_server.git
+[submodule "mls_toolbox_client"]
+	path = mls_toolbox_client
+	url = git@github.com:MLSToolbox/mls_toolbox_client.git
