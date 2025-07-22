@@ -29,6 +29,11 @@ You can find more videos at [mls_code_generator Wiki](https://github.com/MLSTool
 # Deployment
 Each of the folder contains their own docker_build.shand docker_run.sh files. Once both are executed, the system should be up and running!
 
+Remember that the repository is composed of multiple repositories. After cloning the repository the following command needs to be executed:
+```git
+git submodule update --init --recursive
+```
+
 # Contributing
 
 You can find the MLSToolbox Contribution Guidelines [here](https://github.com/MLS-Toobox/mls_toolbox/blob/main/CONTRIBUTING.md).
