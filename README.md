@@ -10,7 +10,7 @@ MLSToolbox is composed by the following components that are included in this rep
 | ---------| ----------- |
 | mls_toolbox_client | An Angular-based component for displaying a node-based editor to define ML pipelines |
 | mls_toolbox_server | A Flask-based component for redirecting the mls_toolbox_client requests to the services provided by the mls_code_generator |
-| mls_code_generator | A Python component for mainly generating Python code for the ML pipelines represented in the editor |
+| mls_code_generator  [![Python Tests and Coverage](https://github.com/MLSToolbox/mls_code_generator/actions/workflows/main.yml/badge.svg)](https://github.com/MLSToolbox/mls_code_generator/actions/workflows/main.yml) | A Python component for mainly generating Python code for the ML pipelines represented in the editor |
 | mls_code_generator/mls_lib | A Python library containing object classes, used in the generated code, representing the structure and the main concepts required to instantiate any pipeline, its stages and the tasks that these stages perform |
 | mls_code_generator/mls_code_generator_config | A component containing several extensible JSON files that define the graphical elements of the graphical editor representing the predefined steps of a ML pipeline |
 
